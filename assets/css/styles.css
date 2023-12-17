@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: white;
+    text-align: center;
+  }
+  .header {
+    background-color: #1C1C1C; /* Cabeçalho cinza escuro */
+    padding: 16px;
+  }
+  .saldo {
+    font-size: 36px;
+    margin: 24px 0;
+  }
+  .saldo-disponivel {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  .icon, .pix-option i {
+    font-size: 50px;
+    margin-bottom: 8px;
+  }
+  .pix-area, .pix-title {
+    background-color: #333; /* Fundo cinza para área PIX e título */
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .pix-option {
+    background-color: #4F4F4F; /* Fundo cinza para opções PIX */
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .pix-option img, .pix-option i {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+  }
+  .pix-text {
+    margin-left: 8px;
+  }
+  .footer {
+    background-color: #1C1C1C; /* Fundo cinza escuro para o rodapé */
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .footer div {
+    padding: 8px;
+  }
+  .footer-icon {
+    font-size: 30px;
+  }
+  
+  .pix-title {
+    font-size: 24px; /* Tamanho do título 'Opções PIX' */
+    margin-bottom: 16px; /* Espaço abaixo do título */
+    align-self: flex-start; /* Alinhamento do título à esquerda */
+  }
+  
